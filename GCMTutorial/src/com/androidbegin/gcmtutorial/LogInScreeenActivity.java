@@ -11,7 +11,7 @@ public class LogInScreeenActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		
-		setContentView(R.layout.homescreen);lmlmldcdcddcd
+		setContentView(R.layout.homescreen);
 		
 		
 		
