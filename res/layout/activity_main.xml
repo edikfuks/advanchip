@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#000000" > 
+        
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/advanchip"
+        android:contentDescription="@string/advanchip_string" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="30dp" />
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/id_string" />
+        
+        <EditText
+            android:id="@+id/id_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="17"
+            android:width="200dp"
+            android:hint="@string/id_input_string"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="7dp" />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pw_string" />
+        
+        <EditText
+            android:id="@+id/pw_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="17"
+            android:width="200dp"
+            android:hint="@string/pw_input_string"
+            android:textColor="#ffffff" />
+        
+    </LinearLayout>
+        
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp" />
+    
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_string"
+        android:textColor="#ffffff" />
+        
+</LinearLayout>

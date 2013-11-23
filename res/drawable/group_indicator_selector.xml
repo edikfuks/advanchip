@@ -1,0 +1,26 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_expanded="true"> 
+		<layer-list>
+        	<item
+	            android:left="0dp"
+	            android:right="3dp"
+	            android:top="20dp"
+	            android:bottom="20dp"
+	            android:drawable="@drawable/arrow_down">
+	        </item>
+		</layer-list>
+    </item>
+    
+    <item>
+		<layer-list>
+        	<item
+	            android:left="0dp"
+	            android:right="3dp"
+	            android:top="20dp"
+	            android:bottom="20dp"
+	            android:drawable="@drawable/arrow_right">
+	        </item>
+		</layer-list>
+    </item>  
+        
+</selector>

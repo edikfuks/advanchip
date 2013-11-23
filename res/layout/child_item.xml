@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center_vertical" 
+    android:background="#222222" >
+    
+    <ImageView 
+        android:id="@+id/image1"
+        android:src="@drawable/ic_launcher"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="55dp" />
+    
+    <TextView
+        android:id="@+id/text1"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="125dp"
+        android:gravity="center"
+        android:textColor = "#ffffff" />
+</RelativeLayout>
