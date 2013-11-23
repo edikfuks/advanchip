@@ -5,7 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
  
-public class GCMMessageView extends Activity {   kvmkenvernfri
+public class GCMMessageView extends Activity {
     String message;
     TextView txtmsg;
  
