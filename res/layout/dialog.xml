@@ -4,15 +4,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
- 
-	<ToggleButton
-	    android:id="@+id/switch_button"
-	    style="@style/DialogWindowTitle"
-	    android:layout_width="wrap_content"
+
+	<Button
+	    android:id="@+id/button1"
+	    android:layout_width="fill_parent"
 	    android:layout_height="wrap_content"
-	    android:layout_centerHorizontal="true"
-	    android:checked="false"
-	    android:textOff="@string/toggle_turn_off"
-	    android:textOn="@string/toggle_turn_on" />
+	    android:layout_alignParentTop="true"
+	    android:textColor="#ff0000"
+	    android:textSize="20dp"
+	    android:text="off" />
+		
   
 </RelativeLayout>

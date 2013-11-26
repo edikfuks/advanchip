@@ -33,8 +33,7 @@
             android:maxLength="17"
             android:width="200dp"
             android:hint="@string/id_input_string"
-            android:textColor="#ffffff"
-            android:layout_marginLeft="7dp" />
+            android:textColor="#ffffff" />
         
     </LinearLayout>
     
