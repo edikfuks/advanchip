@@ -28,7 +28,7 @@ public class GCMIntentService extends GCMBaseIntentService {
     protected void onRegistered(Context context, String registrationId) {
  
         Log.i(TAG, "onRegistered: registrationId=" + registrationId);
-        MainActivity.regId = registrationId;
+        Constants.deviceID = registrationId;
     }
  
     @Override
